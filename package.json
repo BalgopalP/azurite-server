@@ -1,0 +1,19 @@
+{
+  "name": "azure-emulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "azurite": "azurite --silent",
+    "start": "npm run azurite",
+    "stop": "pkill -f azurite",
+    "azurite:blob": "azurite-blob"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azurite": "^3.23.0"
+  }
+}
